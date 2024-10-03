@@ -89,7 +89,7 @@
     width: auto;
 }
 
-/* .pricing-section {
+.pricing-section {
     display: flex;
     grid-template-columns:  repeat(3, 150px);
     width: 1200px;
@@ -97,18 +97,86 @@
     gap: 20px;
 }
 
-.pricing-section .text-section {
-    flex: 2;
+.pricing-section-text {
+    flex: 1.5;
     max-width: 40%;
 }
 
-.pricing-section .img-section {
+.pricing-section-text h2{
+    font-size: 2rem;
+    line-height: 1.5;
+    color: #424242;
+}
+
+.pricing-section-text .pricing-link {
+    color: #387ed1;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.pricing-section-text p{
+    font-size: 1rem;
+    color: #424242;
+}
+
+.pricing-section-img {
     flex: 3;
-    display: grid;
-    grid-template-columns: repeat(3, 100px);
-} */
+}
+
+.pricing-section-img img{
+        width: 150px;
+    }
+
+.pricing-section-img p{
+    padding-top: 70px;
+    font-size: 10px;
+    margin: 0;
+    color: #666;
+    line-height: 16px;
+}
+
+.education-section {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.education-text {
+    padding-top: 50px;
+    padding-left: 100px;
+    font-size: 1.5rem;
+}
+
+.education-text h2{
+    font-size: 1.5rem;
+}
+
+.education-text p{
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    color:#424242;
+}
+
+.education-text .pricing-link {
+    color: #387ed1;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    width: 1800px;
+    margin: 0 auto;
+    box-sizing:content-box;
+    border-top: 10px; 
+}
+
+.footer-section .sec-one{   
+        color: grey;
+}
 
 
-/* .pricing-section {
-    display: inline-block;
-} */
