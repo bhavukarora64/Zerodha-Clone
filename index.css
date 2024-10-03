@@ -169,7 +169,7 @@
 .footer-section {
     display: flex;
     justify-content: space-between;
-    width: 1800px;
+    width: 1200px;
     margin: 0 auto;
     box-sizing:content-box;
     border-top: 10px; 
@@ -177,6 +177,33 @@
 
 .footer-section .sec-one{   
         color: grey;
+        padding-top: 17px;
+}
+
+ul li {
+    color: #666;
+}
+
+.info-section-footer {
+    color: #9b9b9b;
+    font-size: .65rem;
 }
 
 
+.info-section-footer a{
+    color: #387ed1;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.info-links {
+    gap: 15px;
+    color: #9b9b9b;
+    line-height: 4;
+    font-size: .90rem;
+}
+
+.info-links span a{
+    color: #9b9b9b;
+    text-decoration: none;
+}
